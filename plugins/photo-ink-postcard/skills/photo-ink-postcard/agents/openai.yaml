@@ -1,0 +1,7 @@
+interface:
+  display_name: "摄影水墨明信片"
+  short_description: "将横图或竖图转为自适应摄影水墨明信片"
+  default_prompt: "使用 $photo-ink-postcard 将这张摄影图片制作成自适应水墨插画明信片。"
+
+policy:
+  allow_implicit_invocation: true

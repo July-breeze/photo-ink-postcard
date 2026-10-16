@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "photo-ink-postcard",
+  "version": "1.3.0",
+  "description": "Turn landscape, human, or animal photography into adaptive 3:4 or 4:3 photo-and-ink postcards.",
+  "author": {
+    "name": "Photo Ink Postcard contributors"
+  },
+  "license": "MIT",
+  "keywords": ["photography", "postcard", "Chinese ink-wash", "illustration"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "摄影水墨明信片",
+        "shortDescription": "将风景摄影转为克制留白的摄影水墨明信片",
+        "longDescription": "横图采用 3:4 上下双区，竖图采用 4:3 左右双区；实拍确定性保留，人物和动物主体以减法水墨重构。",
+        "developerName": "Photo Ink Postcard contributors",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": [
+          "使用 photo-ink-postcard 将我附上的照片制作成自适应摄影水墨明信片。",
+          "Use photo-ink-postcard to turn my attached photo into an adaptive photo-and-ink postcard."
+        ],
+        "brandColor": "#F5F5F1"
+      }
+    }
+  }
+}

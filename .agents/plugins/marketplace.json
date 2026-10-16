@@ -1,0 +1,20 @@
+{
+  "name": "photo-ink-postcard-marketplace",
+  "interface": {
+    "displayName": "Photo Ink Postcard"
+  },
+  "plugins": [
+    {
+      "name": "photo-ink-postcard",
+      "source": {
+        "source": "local",
+        "path": "./plugins/photo-ink-postcard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
